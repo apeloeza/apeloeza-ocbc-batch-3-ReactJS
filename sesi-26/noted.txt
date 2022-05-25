@@ -1,0 +1,15 @@
+1. install redux dan react-redux
+   -> npm install react-redux redux
+2. init redux dan react-redux
+   -> ingat 5 langkah pertama inisialisasi redux --> store/index.js
+   -> inisialisasikan react-redux di file index.js
+3. jalankan selector, dispatch, dan implementasinya di dalam event listener
+4. buat sebuah action untuk meng-handle operasi yang lebih kompleks
+
+Reduc middleware
+- redux loger -> merekam aktifitas perubahan state di dalam aplikasi react kita
+- redux thunk -> memungkinkan kita untuk menjalankan action creator secara asynchronus,
+atau dengan kata lain, mengembalikan function (dispatch,getState)=>{}
+
+kita import ke dalam 
+npm install redux-logger
